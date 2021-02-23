@@ -1,0 +1,5 @@
+auth:
+  rbac:
+    enabled: false
+statefulset:
+  replicaCount: 3

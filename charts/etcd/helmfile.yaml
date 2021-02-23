@@ -1,0 +1,15 @@
+repositories:
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+
+environments:
+  dev: {}
+
+releases:
+  - name: etcd
+    namespace: etcd
+    chart: bitnami/etcd
+    version: 5.6.1
+    values:
+      - ./values.yaml
+      - ./override.yaml
