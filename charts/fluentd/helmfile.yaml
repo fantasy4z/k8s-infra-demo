@@ -1,0 +1,15 @@
+repositories:
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+
+environments:
+  dev: {}
+
+releases:
+  - name: fluentd
+    namespace: fluentd
+    chart: bitnami/fluentd
+    version: 3.6.2
+    values:
+      - ./values.yaml
+      - ./override.yaml

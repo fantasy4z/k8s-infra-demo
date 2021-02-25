@@ -1,0 +1,8 @@
+image:
+  registry: docker.io
+  repository: fantasy4z/fluentd
+  tag: 1.12.1
+  pullPolicy: Always
+
+forwarder:
+  enabled: false
