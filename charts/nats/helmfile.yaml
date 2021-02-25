@@ -1,0 +1,14 @@
+repositories:
+  - name: nats
+    url: https://nats-io.github.io/k8s/helm/charts/
+
+environments:
+  dev: {}
+
+releases:
+  - name: nats
+    namespace: nats
+    chart: nats/nats
+    version: 0.7.5
+    values:
+      - ./values.yaml
