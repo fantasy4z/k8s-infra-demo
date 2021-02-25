@@ -12,3 +12,4 @@ releases:
     version: 0.7.5
     values:
       - ./values.yaml
+      - ./override.yaml
